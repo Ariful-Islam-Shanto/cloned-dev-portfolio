@@ -5,6 +5,7 @@
 body{
     margin:0;
     padding:0;
+    overflow-x: hidden;
 }
 
 .text-primary {
@@ -252,6 +253,7 @@ hr {
 
 /* message-section */
 .message-section {
+
     margin-top: 130px;
     padding: 130px 230px;
     display: flex;
@@ -301,11 +303,13 @@ textarea {
 @media screen and (max-width: 576px){
     /* resume container */
     .resume-inner-container{
+        width:100%;
         flex-direction: column;
         text-align: center;
     }
     /* footer section */
     .message-section {
+        width:100%;
         margin-top: 130px;
         padding: 40px;
         gap: 100px;
@@ -316,19 +320,21 @@ textarea {
     .footer-column {
         margin: 0 auto;
         text-align: center;
-        width: 80%;
+        width: 100%;
     }
 }
 /* for tablet device */
 @media screen and (min-width:576px) and (max-width: 992px){
     /* resume container */
     .resume-inner-container{
+        width:100%;
         flex-direction: column;
         text-align: center;
         padding: 40px;
     }
      /* footer section */
      .message-section {
+        width:100%;
         margin-top: 100px;
         padding: 30px;
         gap: 50px;
