@@ -202,7 +202,11 @@ main section {
 }
 
 /* Resume container */
-.resume-container {}
+.resume-container {
+    width:100%;
+    text-align: center;
+ 
+}
 
 .resume-inner-container {
     display: flex;
@@ -302,10 +306,15 @@ textarea {
 /* for mobile device */
 @media screen and (max-width: 576px){
     /* resume container */
+    .resume-container{
+        width:100%;
+        margin: auto 0;
+    }
     .resume-inner-container{
         width:100%;
         flex-direction: column;
         text-align: center;
+      
     }
     /* footer section */
     .message-section {
